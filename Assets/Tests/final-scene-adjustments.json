@@ -1,0 +1,10 @@
+{
+  "command": "apply",
+  "instructions": {
+    "modify": {
+      "@sceneObject:Incense Title Anchor": {"transform.position": [0, 20, 0]},
+      "@sceneObject:Incense Inspection Card": {"transform.position": [9.5, -11.5, 26]},
+      "@sceneObject:Incense Main Button": {"transform.position": [0, -23, 23]}
+    }
+  }
+}

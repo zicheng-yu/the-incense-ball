@@ -1,0 +1,100 @@
+- !<AssetImportMetadata/9e3f7789-9f29-43dc-b0fd-2f8f0085605e>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 16e025f0-b712-4a45-8737-3346ebb117f3
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 16e025f0-b712-4a45-8737-3346ebb117f3
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 0f33accf-96d1-4a6f-bd42-3db22a84e1d0
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/0f33accf-96d1-4a6f-bd42-3db22a84e1d0>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: f69ff96b-019d-4720-bd29-75b26fa5cc2e
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    ball: false
+    cup: false
+    glow: false
+    hintDelaySeconds: false
+    innerRing: false
+    ornamentalDetail: false
+    outerRing: false
+    pivotClick: false
+    releaseHoldSeconds: false
+    rollRadiansPerCm: false
+    selectClick: false
+    shell1: false
+    shell2: false
+    silver: false
+    smoke: false
+    stand: false
+    stone: false
+    transitionSeconds: false
+    ui: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - ui: !<MappingBased.AssignableType_1> 00000000-0000-0000-0000-000000000000
+      ball: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      shell1: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      shell2: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      outerRing: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      innerRing: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      cup: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      smoke: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      stand: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      silver: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      glow: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      stone: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      pivotClick: !<reference.AudioTrackAsset> 00000000-0000-0000-0000-000000000000
+      selectClick: !<reference.AudioTrackAsset> 00000000-0000-0000-0000-000000000000
+      transitionSeconds: 2.500000
+      releaseHoldSeconds: !<float> 2.000000
+      hintDelaySeconds: !<float> 5.000000
+      rollRadiansPerCm: 0.133333
+      ornamentalDetail: false
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @input AssignableType_1 ui {"hint":"Passive UIKit exhibit view"}'
+    - '// @input SceneObject ball {"hint":"Unit-scale collider for the assembled ball"}'
+    - '// @input SceneObject shell1 {"hint":"Silver shell half 1 target root"}'
+    - '// @input SceneObject shell2 {"hint":"Silver shell half 2 target root"}'
+    - '// @input SceneObject outerRing {"hint":"Outer gimbal ring target root"}'
+    - '// @input SceneObject innerRing {"hint":"Inner gimbal ring target root"}'
+    - '// @input SceneObject cup {"hint":"Incense cup target root"}'
+    - '// @input SceneObject smoke {"hint":"World-vertical smoke root"}'
+    - '// @input SceneObject stand {"hint":"Stand top is 15 cm below the assembled ball center"}'
+    - '// @input Asset.Material silver {"hint":"Silver PBR material template"}'
+    - '// @input Asset.Material glow {"hint":"Emissive material template"}'
+    - '// @input Asset.Material stone {"hint":"Stone plinth material template"}'
+    - '// @input Asset.AudioTrackAsset pivotClick {"hint":"Soft mechanical pivot sound"}'
+    - '// @input Asset.AudioTrackAsset selectClick {"hint":"Soft inspection sound"}'
+    - '// @input float transitionSeconds = 2.5 {"hint":"Duration of the five-part disassembly"}'
+    - '// @input float releaseHoldSeconds = 2 {"hint":"Seconds to retain the cutaway after releasing"}'
+    - '// @input float hintDelaySeconds = 5 {"hint":"Seconds until the untouched assembled ball displays its hint"}'
+    - '// @input float rollRadiansPerCm = 0.1333333 {"hint":"Shell rotation per centimeter of hand drag"}'
+    - '// @input bool ornamentalDetail = true {"hint":"Add the fine openwork petal bands"}'

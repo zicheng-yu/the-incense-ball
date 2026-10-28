@@ -1,0 +1,70 @@
+- !<AssetImportMetadata/be42cd3e-4840-4be9-9ae4-b283100580b2>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> e631ab72-2984-4f4a-84bb-5fbace1b0c88
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> e631ab72-2984-4f4a-84bb-5fbace1b0c88
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 47ca9e87-0fb6-4729-ad4f-681bf67b1171
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/47ca9e87-0fb6-4729-ad4f-681bf67b1171>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: a112a6da-3868-4357-adc9-c5796464e02e
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    buttonAnchor: false
+    buttonHeight: false
+    buttonWidth: false
+    cardAnchor: false
+    hintAnchor: false
+    tagsAnchor: false
+    textScale: false
+    titleAnchor: false
+    titleCopy: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - buttonAnchor: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      titleAnchor: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      hintAnchor: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      cardAnchor: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      tagsAnchor: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      buttonWidth: !<float> 25.000000
+      buttonHeight: !<float> 8.000000
+      titleCopy: Tang-dynasty silver incense ball
+      textScale: 1.200000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @input SceneObject buttonAnchor {"hint":"World-space front-edge button anchor"}'
+    - '// @input SceneObject titleAnchor {"hint":"World-space title anchor"}'
+    - '// @input SceneObject hintAnchor {"hint":"World-space rolling-hint anchor"}'
+    - '// @input SceneObject cardAnchor {"hint":"World-space inspection card anchor"}'
+    - '// @input SceneObject tagsAnchor {"hint":"World-space two-tier name-tag anchor"}'
+    - '// @input float buttonWidth = 25 {"hint":"Button width in centimeters"}'
+    - '// @input float buttonHeight = 8 {"hint":"Button target height in centimeters"}'
+    - '// @input string titleCopy = "Tang-dynasty silver incense ball" {"hint":"Title shown before the first interaction"}'
+    - '// @input float textScale = 1.2 {"hint":"Text scale for all exhibit labels"}'
